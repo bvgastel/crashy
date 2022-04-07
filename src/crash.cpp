@@ -54,7 +54,7 @@
 #define _GNU_SOURCE	// linux needs this for Dl_info
 #endif
 
-#include "crash.h"
+#include "crashy.h"
 
 #include <dlfcn.h>
 

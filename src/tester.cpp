@@ -1,4 +1,4 @@
-#include "crash.h"
+#include "crashy.h"
 
 #include <errno.h>
 #include <string.h>
@@ -78,6 +78,7 @@ int main(int argc, char** argv) {
 		}
 	};
 	GenerateDumpOnCrash(std::move(options));
+  // no arguments will trigger a null pointer here
 	x = atoi(argv[1]);
 	if (x != 0)
 		foo();

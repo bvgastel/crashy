@@ -19,7 +19,7 @@
 #include <cxxabi.h>
 #include "tosourcecode.h"
 #include "term-defines.h"
-#include "crash.h"
+#include "crashy.h"
 
 const char* BaseName(const char *str) {
 	const char *p = strrchr(str, '/');
